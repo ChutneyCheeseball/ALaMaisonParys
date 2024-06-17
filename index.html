@@ -32,9 +32,9 @@
     </header>
     <main>
         <div class="container">
+            <h2>Welcome home</h2>
             <div class="responsive">
                 <div>
-                    <h2>Welcome home</h2>
                     <p class="embiggen_first">Combining old-world charm with modern comfort and convenience, À la Maison
                         is a luxurious guesthouse with Victorian style furniture and decorations. Built in 1913, the
                         house is one of the first to be constructed during the rebuilding of Parys after the Anglo Boer
@@ -45,41 +45,43 @@
                         from hiking and game drives to abseiling and river rafting. There is no shortage of exciting
                         things to see and do in and around the tourist hub of the Vredefort Dome.</p>
                     <div class="gallery">
-                        <img src="imgs/chevronLeft.png" class="chevron prev" onclick="prevImage()"
+                        <img src="imgs/chevronLeft.png" class="chevron prev" onclick="prevGalleryImage(0)"
                             alt="Previous Photo" />
-                        <img src="imgs/chevronRight.png" class="chevron next" onclick="nextImage()" alt="Next Photo" />
+                        <img src="imgs/chevronRight.png" class="chevron next" onclick="nextGalleryImage(0)"
+                            alt="Next Photo" />
                         <div>
-                            <img class="galleryImg opaque" src="imgs/alamaison01.jpg" alt="&Agrave; la Maison" />
+                            <img class="galleryImg opaque" src="imgs/alamaison01.jpg" alt="À la Maison" />
                         </div>
                         <div>
-                            <img class="galleryImg transparent" src="imgs/alamaison02.jpg" alt="&Agrave; la Maison" />
+                            <img class="galleryImg transparent" src="imgs/alamaison02.jpg" alt="À la Maison" />
                         </div>
                         <div>
-                            <img class="galleryImg transparent" src="imgs/alamaison03.jpg" alt="&Agrave; la Maison" />
+                            <img class="galleryImg transparent" src="imgs/alamaison03.jpg" alt="À la Maison" />
                         </div>
                         <div>
-                            <img class="galleryImg transparent" src="imgs/alamaison04.jpg" alt="&Agrave; la Maison" />
+                            <img class="galleryImg transparent" src="imgs/alamaison04.jpg" alt="À la Maison" />
                         </div>
                         <div>
-                            <img class="galleryImg transparent" src="imgs/alamaison05.jpg" alt="&Agrave; la Maison" />
+                            <img class="galleryImg transparent" src="imgs/alamaison05.jpg" alt="À la Maison" />
                         </div>
                         <div>
-                            <img class="galleryImg transparent" src="imgs/alamaison06.jpg" alt="&Agrave; la Maison" />
+                            <img class="galleryImg transparent" src="imgs/alamaison06.jpg" alt="À la Maison" />
                         </div>
                         <div>
-                            <img class="galleryImg transparent" src="imgs/alamaison07.jpg" alt="&Agrave; la Maison" />
+                            <img class="galleryImg transparent" src="imgs/alamaison07.jpg" alt="À la Maison" />
                         </div>
                         <div>
-                            <img class="galleryImg transparent" src="imgs/alamaison08.jpg" alt="&Agrave; la Maison" />
+                            <img class="galleryImg transparent" src="imgs/alamaison08.jpg" alt="À la Maison" />
                         </div>
                         <div>
-                            <img class="galleryImg transparent" src="imgs/alamaison09.jpg" alt="&Agrave; la Maison" />
+                            <img class="galleryImg transparent" src="imgs/alamaison09.jpg" alt="À la Maison" />
                         </div>
                         <div>
-                            <img class="galleryImg transparent" src="imgs/alamaison10.jpg" alt="&Agrave; la Maison" />
+                            <img class="galleryImg transparent" src="imgs/alamaison10.jpg" alt="À la Maison" />
                         </div>
                     </div>
-                    <script src="scripts/indexGallery.js" defer></script>
+                    <br />
+                    <script src="scripts/gallery.js" defer></script>
                     <p class="embiggen_first">Guests looking for a quiet getaway instead may enjoy a tranquil afternoon
                         in our secluded gardens, leisurely riverside walks and nights spent relaxing in front of the
                         fireplace. À la Maison is a home away from home to those who want to escape the hustle and
@@ -97,7 +99,7 @@
                 </div>
                 <aside>
                     <p><b>Enjoy Our Ideal Location and Exceptional Amenities</b></p>
-                    <div id="amenities">
+                    <div class="smaller_font">
                         <p><b>Location</b> - Walking distance to the main attractive hub of Parys.</p>
                         <p><b>Secure Parking</b> - For peace of mind, safe parking is provided on the premises within
                             the fenced off area, with remote control gates and all-night lighting.</p>

@@ -12,6 +12,11 @@
   padding: 0;
 }
 
+.list_margins {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
 .highlighted {
   color: var(--highlight);
 }
@@ -107,6 +112,10 @@ header .scrim {
   max-height: 100px;
 }
 
+.current {
+  color: white !important;
+}
+
 /* Main */
 
 main {
@@ -172,7 +181,7 @@ main h2 {
   text-align: center;
 }
 
-#amenities {
+.smaller_font {
   text-align: start;
   font-size: 0.9em;
 }
@@ -191,10 +200,10 @@ main h2 {
 /* Image Gallery */
 
 .gallery {
-  padding-bottom: 70%;
+  padding-bottom: 67%;
   overflow: hidden;
-  margin-bottom: 10px;
   position: relative;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
 }
 
 .gallery .chevron {
@@ -331,7 +340,7 @@ footer a {
 
 #map {
   width: 100%;
-  height: 480px;
+  height: 400px;
   margin-top: 1rem;
 }
 
@@ -339,10 +348,7 @@ footer a {
   margin-bottom: 0.5rem;
 }
 
-.activities_list {
-  margin-bottom: 1rem;
-  margin-left: 2rem;
-}
+/* Activity Packages */
 
 .activities_photos {
   text-align: center;
@@ -360,6 +366,36 @@ footer a {
     width: 100%;
     height: auto;
   }
+}
+
+/* Our Rooms */
+
+.room {
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: var(--dark);
+  color: var(--light);
+  margin-bottom: 1em;
+}
+
+.room h3 {
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.embiggen {
+  font-size: 1.25em;
+}
+
+.rate_row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
 }
 
 a,
@@ -386,13 +422,4 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.hidden {
-  overflow: hidden;
-  height: 0px;
-}
-
-.current {
-  color: white !important;
 }
