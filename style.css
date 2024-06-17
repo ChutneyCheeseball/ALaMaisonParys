@@ -339,10 +339,27 @@ footer a {
   margin-bottom: 0.5rem;
 }
 
-/* Activities Packages */
-.activities {
+.activities_list {
   margin-bottom: 1rem;
   margin-left: 2rem;
+}
+
+.activities_photos {
+  text-align: center;
+  width: 100%;
+}
+
+.activities_photos img {
+  width: 320px;
+  height: auto;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: 359px) {
+  .activities_photos img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 a,
@@ -360,7 +377,11 @@ a:hover {
 }
 
 #tripAdvisor {
+  display: inline-block;
+  background-color: white;
   margin-top: 1rem;
+  width: 200px;
+  height: 100px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -370,4 +391,8 @@ a:hover {
 .hidden {
   overflow: hidden;
   height: 0px;
+}
+
+.current {
+  color: white !important;
 }
