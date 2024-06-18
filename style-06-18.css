@@ -178,11 +178,9 @@ main h2 {
 
 .responsive aside {
   flex: 1;
-  text-align: center;
 }
 
 .smaller_font {
-  text-align: start;
   font-size: 0.9em;
 }
 
@@ -422,4 +420,8 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.info_section {
+  font-size: 0.9em;
 }
