@@ -1,0 +1,5 @@
+DirectoryIndex index.html index.php
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^alamaisonparys\.bingaplace\.co\.za$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.alamaisonparys\.bingaplace\.co\.za$
+RewriteRule ^/?$ "https\:\/\/www\.alamaisonparys\.co\.za" [R=301,L]
